@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel_img{
+    height: 90vh;
+}
+.popular_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1vw;
+    width: 90vw;
+    margin: 2vw 4vw;
+}
+.Popular_images{
+    width: 17vw;
+}
+
+
+.hero_searchbar{
+    width: 35vw;
+}
+.herosearch_btn{
+    border: 0;
+    padding: 1vh;
+    background-color: rgba(7, 177, 7, 0.767);
+    border-radius: 0.2em;
+    color: white;
+    font-weight: bolder;
+}
