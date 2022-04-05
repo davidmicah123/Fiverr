@@ -28,3 +28,102 @@
     color: white;
     font-weight: bolder;
 }
+
+
+.freelance_talent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+    background-color: aquamarine;
+    width: 100%;
+    padding: 0 auto;
+}
+.freelance_talent h1{
+    font-size: 6vh;
+    font-weight: normal;
+}
+.freelance_talent h2{
+    font-size: 3vh;
+    font-weight: bolder;
+}
+.freelanc_talent p{
+    font-size: 3vh;
+}
+.freelance_talent_img{
+    width: 40vw;
+}
+
+
+
+
+.explore_header{
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+}
+.explore_marketplace{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    padding-left: 7vw;
+    grid-gap: auto;
+}
+.explore_icons{
+    width: 6vw;
+}
+
+
+
+.fiverr_buisnesses{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    background-color: rgba(18, 15, 177, 0.952);
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+
+
+
+
+
+
+
+
+.fiverr_logo_maker{
+    width: 90vw;
+    background-color: rgba(10, 103, 196, 0.897);
+    margin-left: 5vw;
+}
+.single_talent{
+    background-image: url('images/fiverr_talent.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80vw;
+    height: 40vh;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.find_talent{
+    color: white;
+}
+.get_started{
+    border: 0;
+    padding: 1vh;
+    color: white;
+    background-color: green;
+    font-weight: bolder;
+    border-radius: 0.2em;
+}
+.single_talent_content{
+    padding-top: 5vw;
+    margin-left: 5vw;
+}
+.talent_text{
+    font-family:  Arial, Helvetica, sans-serif;
+}
