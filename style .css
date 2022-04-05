@@ -127,3 +127,21 @@
 .talent_text{
     font-family:  Arial, Helvetica, sans-serif;
 }
+
+
+
+
+.footer{
+    background: #f5f5f5;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.footer_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.footer_list ul li{
+    list-style: none;
+}
